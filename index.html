@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Cards</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <h1 id="black">Black Jack's Card Counting</h1>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+    <h1 id = "playercard"> -- Current Card -- </h1>
+    <br>
+    <br>
+    <h2>- Player's Card -</h2>
+    <input class = "newcard1" type="text">
+    <input class = "newcard2" type="text">
+    <input class = "newcard3" type="text">
+    <input class = "newcard4" type="text">
+    <input class = "newcard5" type="text">
+    <br>
+    <h3 id = "total">-Card Count-</h3> 
+    <button id = "submit" onclick="submitCards(); return false">Submit</button>
+    <button id = "show" onclick="showScore(); return false">Show Cards</button>
+    <button id = "count" onclick="countingScore(); return false">Count Score</button>
+    <button id = "reset" onclick="resetField(); return false">Reset</button>
+    </div>
+
+    <script src="java/main.js"></script>
+</body>
+</html>
